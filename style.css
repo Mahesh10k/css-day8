@@ -1,0 +1,81 @@
+body {
+    background-color: pink;
+    margin: 0;
+}
+.header {
+    background-color:black ;
+    text-align: center;
+    padding: 30px 0px;
+    color: white;
+}
+.section>div:first-child {
+    border: 2px solid black;
+    height: 300px;
+    width: 400px;
+    padding-left: 10px;
+    transition: all 3s ease-in 1s;
+}
+.section>div:first-child>img{
+    transition: all 3s ease-in 1s;
+}
+.section>div:first-child>img:hover {
+    border-radius: 50%;
+    padding-left: 30px;
+}
+.section>div:first-child:hover {
+    background-color: cadetblue;
+    transform: rotate(25deg);
+}
+.section>div:last-child {
+    border: 2px solid black;
+    height: 300px;
+    padding-left: 30px;
+    transition: all 3s ease-in 1s;
+}
+.section>div:last-child:hover {
+    background-color: aquamarine;
+    transform: scale(1.2);
+    padding-right: 50px;
+}
+.section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.main>div:first-child {
+    width: 500px;
+    padding: 20px 10px;
+    border: 2px solid black;
+    transition: all 1s ease-in 1s;
+}
+.main>div:first-child:hover {
+    transform: skew(20deg,10deg);
+    opacity: 0.3 ;
+}
+.main>div:last-child {
+    width: 500px;
+    padding: 20px 10px;
+    border: 2px solid black;
+    transition: all 1s ease-in 1s;
+}
+.main>div:last-child:hover {
+    transform:translateX(40px) ;
+    color: red;
+}
+.main {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+}
+.footer {
+    background-color:black ;
+    text-align: center;
+    padding: 30px 0px;
+    color: white;
+    margin-top: 30px;
+}
+
+
+
+
+
