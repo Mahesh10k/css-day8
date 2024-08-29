@@ -29,13 +29,14 @@ body {
 .section>div:last-child {
     border: 2px solid black;
     height: 300px;
+    width: 200px;
     padding-left: 30px;
     transition: all 3s ease-in 1s;
 }
 .section>div:last-child:hover {
     background-color: aquamarine;
     transform: scale(1.2);
-    padding-right: 50px;
+    width: 300px;
 }
 .section {
     display: flex;
